@@ -13,4 +13,4 @@ The project also computes three spectral indices:
 - Normalized Difference Water Index (NDWI) - Identifies surface water bodies
 - Normalized Difference Built-up Index (NDBI) - Detects urban and built-up areas
 
-This project demonstrates an end-to-end remote sensing workflow, including satellite image preprocessing, spectral index generation, supervised classification, map production, and spatial interpretation using Google Earth Engine and QGIS. 
+These spectral indices, together with the original Sentinel-2 spectral bands, were used as input features for the Random Forest classifier. The classifier was trained using manually digitized ground-truth samples  to produce the final land cover classification.
